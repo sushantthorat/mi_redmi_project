@@ -166,25 +166,26 @@ body {
   }
 }
 
+.section_head {
+  h3 {
+    width: 87%;
+    margin:0 auto;
+    font-size: 36px;
+    line-height: 1.33333;
+    color: #212121;
+    font-weight:600;
+  }
+  p {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #757575;
+  }
+}
+
 .warranty_section {
   padding: 110px 0 50px 0;
   .container {
-    .section_head {
-      h3 {
-        width: 87%;
-        margin:0 auto;
-        font-size: 36px;
-        line-height: 1.33333;
-        color: #212121;
-        font-weight:600;
-      }
-      p {
-        width: 90%;
-        margin: 20px auto;
-        font-size: 14px;
-        color: #757575;
-      }
-    }
 
     .damage_contact {
       margin: 85px 0;
@@ -263,6 +264,84 @@ body {
           }
           .blue::before {
             background-color: #00acc1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.claim_section {
+  padding-bottom: 50px;
+  .container {
+    .warranty_detail {
+      .row {
+        .col-sm-6 {
+          .card_head::before {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 90px;
+            left: 0;
+            border-style: solid;
+            border-width: 20px 210px 0 210px;
+            border-color: #fff transparent transparent transparent;
+          }
+
+          .card_head {
+            height: 90px;
+            text-align: center;
+            position: relative;
+            line-height: 90px;
+            color: #fff;
+            font-size: 23px;
+            h4 {
+              padding-top: 30px;
+              font-size: 23px;
+            }
+          }
+          .gray_hd {
+            background-color: #757575;
+          }
+          .gray_hd::before {
+            border-top-color: #757575;
+          }
+          .green_hd {
+            background-color: #7aaa4b;
+          }
+          .card_provided {
+            width: 100%;
+            height: 550px;
+            background-color: #fff;
+            box-shadow: rgba(0,0,0,0.15) 0 13px 24px;
+            .green_hd::before {
+              border-top-color: #7aaa4b;
+            }
+
+            .card_detail {
+              padding: 50px 50px 0;
+              line-height: 1.8;
+              ol {
+                li {
+                  list-style-position: inside;
+                }
+              }
+              dt {
+                font-weight: 900;
+              }
+              dd {
+                margin: 5px 0 40px 0;
+                line-height: 1.8;
+              }
+            }
+            .not_provided {
+              ol {
+                li {
+                  margin-bottom: 30px;
+                }
+              }
+            }
           }
         }
       }

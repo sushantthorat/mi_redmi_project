@@ -147,4 +147,72 @@
   </div>
 </div>
 
+<div class="claim_section main">
+  <div class="container">
+    <div class="wrapper">
+      <div class="section_head">
+        <h3>Check if your damage is applicable to claim Mi Protect</h3>
+      </div>
+
+      <div class="warranty_detail">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card_provided">
+              <div class="card_head green_hd">
+                <h4>Warranty is provided if</h4>
+              </div>
+              <div class="card_detail">
+                <dl>
+                  <dt>The damage to the phone caused by:</dt>
+                  <dd>
+                    <ol>
+                      <li>Falling</li>
+                      <li>Extrusion</li>
+                      <li>Collision</li>
+                      <li>Liquid</li>
+                    </ol>
+                  </dd>
+                  <dt>The following conditions are met:</dt>
+                  <dd>
+                    <ol>
+                      <li>Phone is covered under protection.</li>
+                      <li>Request is raised within the specified period of time.</li>
+                      <li>OneAssist team verifies the claim requirement is genuine and covered under explained scenarios.</li>
+                    </ol>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card_provided">
+              <div class="card_head gray_hd">
+                <h4>Warranty is not provided if</h4>
+              </div>
+              <div class="card_detail not_provided">
+                <ol>
+                  <li>The damage is caused by willful misconduct, normal wear and tear, corrosion, oxidation, rust, condensation, cold or heat.</li>
+                  <li>Cosmetic damage like stripping of paint, scratches on the phone, fading etc. </li>
+                  <li>Damage caused to phone software.</li>
+                  <li>Service agreement does not document the phone model, IMEI.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="faq_section_protect">
+  <div class="container">
+    <div class="wrapper">
+      <div class="section_head">
+        <h3>Frequently Asked Questions on Mi Protect</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php require_once('footer.php'); ?>

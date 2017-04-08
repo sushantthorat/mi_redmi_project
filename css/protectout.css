@@ -858,20 +858,21 @@ body {
       .safe-guard .damage_list .row .col-sm-3 p {
         margin-top: 20px; }
 
+.section_head h3 {
+  width: 87%;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 1.33333;
+  color: #212121;
+  font-weight: 600; }
+.section_head p {
+  width: 90%;
+  margin: 20px auto;
+  font-size: 14px;
+  color: #757575; }
+
 .warranty_section {
   padding: 110px 0 50px 0; }
-  .warranty_section .container .section_head h3 {
-    width: 87%;
-    margin: 0 auto;
-    font-size: 36px;
-    line-height: 1.33333;
-    color: #212121;
-    font-weight: 600; }
-  .warranty_section .container .section_head p {
-    width: 90%;
-    margin: 20px auto;
-    font-size: 14px;
-    color: #757575; }
   .warranty_section .container .damage_contact {
     margin: 85px 0; }
     .warranty_section .container .damage_contact .row .col-sm-4 {
@@ -932,5 +933,53 @@ body {
         border-color: #00acc1; }
       .warranty_section .container .damage_contact .row .col-sm-4 .blue::before {
         background-color: #00acc1; }
+
+.claim_section {
+  padding-bottom: 50px; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .card_head::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    border-style: solid;
+    border-width: 20px 210px 0 210px;
+    border-color: #fff transparent transparent transparent; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .card_head {
+    height: 90px;
+    text-align: center;
+    position: relative;
+    line-height: 90px;
+    color: #fff;
+    font-size: 23px; }
+    .claim_section .container .warranty_detail .row .col-sm-6 .card_head h4, .claim_section .container .warranty_detail .row .col-sm-6 .card_head .service_section .rt_text span, .service_section .rt_text .claim_section .container .warranty_detail .row .col-sm-6 .card_head span {
+      padding-top: 30px;
+      font-size: 23px; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .gray_hd {
+    background-color: #757575; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .gray_hd::before {
+    border-top-color: #757575; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .green_hd {
+    background-color: #7aaa4b; }
+  .claim_section .container .warranty_detail .row .col-sm-6 .card_provided {
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 13px 24px; }
+    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .green_hd::before {
+      border-top-color: #7aaa4b; }
+    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail {
+      padding: 50px 50px 0;
+      line-height: 1.8; }
+      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail ol li {
+        list-style-position: inside; }
+      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail dt {
+        font-weight: 900; }
+      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail dd {
+        margin: 5px 0 40px 0;
+        line-height: 1.8; }
+    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .not_provided ol li {
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=protectout.css.map */
