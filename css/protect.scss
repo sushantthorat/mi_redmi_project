@@ -167,6 +167,7 @@ body {
 }
 
 .warranty_section {
+  padding: 110px 0 50px 0;
   .container {
     .section_head {
       h3 {
@@ -182,6 +183,88 @@ body {
         margin: 20px auto;
         font-size: 14px;
         color: #757575;
+      }
+    }
+
+    .damage_contact {
+      margin: 85px 0;
+      .row {
+        .col-sm-4 {
+          text-align: center;
+          .con_icon {
+            display: inline-block;
+            background: url('../images/steps-list-bg.png') no-repeat;
+          }
+          .tel {
+            background-position: -5px -9px;
+            width: 60px;
+	          height: 51px;
+          }
+          .cont {
+            background-position: -74px -11px;
+          	width: 64px;
+          	height: 46px;
+          }
+          .build {
+            background-position: -148px -4px;
+          	width: 56px;
+          	height: 60px;
+          }
+          .rank_br {
+            width: 92%;
+            border: 1px solid;
+            position: relative;
+            overflow: hidden;
+            height: 270px;
+            padding: 50px 0 36px 0;
+
+            p {
+              margin-top: 50px;
+            }
+          }
+          .orange {
+            border-color: #f57517;
+          }
+          .orange::before {
+            background-color: #f57517;
+          }
+          .rank_br::before {
+            content: "";
+            width: 67px;
+            height: 67px;
+            position: absolute;
+            top: -33px;
+            left: -33px;
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+             transform: rotate(-45deg);
+          }
+          .rnk_count {
+            position: absolute;
+            left: 3px;
+            top: 5px;
+            font-size: 24px;
+            line-height: 1;
+            font-weight: 600;
+            font-style: italic;
+            color: #fff;
+            font-family: 'Avenir';
+          }
+
+          .green {
+            border-color: #7cb342;
+          }
+          .green::before {
+            background-color: #7cb342;
+          }
+
+          .blue {
+            border-color: #00acc1;
+          }
+          .blue::before {
+            background-color: #00acc1;
+          }
+        }
       }
     }
   }

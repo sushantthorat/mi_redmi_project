@@ -858,17 +858,79 @@ body {
       .safe-guard .damage_list .row .col-sm-3 p {
         margin-top: 20px; }
 
-.warranty_section .container .section_head h3 {
-  width: 87%;
-  margin: 0 auto;
-  font-size: 36px;
-  line-height: 1.33333;
-  color: #212121;
-  font-weight: 600; }
-.warranty_section .container .section_head p {
-  width: 90%;
-  margin: 20px auto;
-  font-size: 14px;
-  color: #757575; }
+.warranty_section {
+  padding: 110px 0 50px 0; }
+  .warranty_section .container .section_head h3 {
+    width: 87%;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 1.33333;
+    color: #212121;
+    font-weight: 600; }
+  .warranty_section .container .section_head p {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #757575; }
+  .warranty_section .container .damage_contact {
+    margin: 85px 0; }
+    .warranty_section .container .damage_contact .row .col-sm-4 {
+      text-align: center; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .con_icon {
+        display: inline-block;
+        background: url("../images/steps-list-bg.png") no-repeat; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .tel {
+        background-position: -5px -9px;
+        width: 60px;
+        height: 51px; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .cont {
+        background-position: -74px -11px;
+        width: 64px;
+        height: 46px; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .build {
+        background-position: -148px -4px;
+        width: 56px;
+        height: 60px; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .rank_br {
+        width: 92%;
+        border: 1px solid;
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+        padding: 50px 0 36px 0; }
+        .warranty_section .container .damage_contact .row .col-sm-4 .rank_br p {
+          margin-top: 50px; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .orange {
+        border-color: #f57517; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .orange::before {
+        background-color: #f57517; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .rank_br::before {
+        content: "";
+        width: 67px;
+        height: 67px;
+        position: absolute;
+        top: -33px;
+        left: -33px;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg); }
+      .warranty_section .container .damage_contact .row .col-sm-4 .rnk_count {
+        position: absolute;
+        left: 3px;
+        top: 5px;
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 600;
+        font-style: italic;
+        color: #fff;
+        font-family: 'Avenir'; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .green {
+        border-color: #7cb342; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .green::before {
+        background-color: #7cb342; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .blue {
+        border-color: #00acc1; }
+      .warranty_section .container .damage_contact .row .col-sm-4 .blue::before {
+        background-color: #00acc1; }
 
 /*# sourceMappingURL=protectout.css.map */

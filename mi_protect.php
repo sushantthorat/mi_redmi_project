@@ -113,6 +113,36 @@
         <h3>Buy Mi Protect &amp; get 12 month warranty against accidents</h3>
         <p>Buy Mi Protect along with your phone and get a 1-year free maintenance service. <br>In case of any accidental or liquid damage to your Mi phone, just call the Mi Protect customer service team at 1800 407 333 333, 1800 123 3330 or 0 8080 333 333 to explain the issue. They will send the relevant personnel to your address to check the issue and initiate the free servicing.</p>
       </div>
+
+      <div class="damage_contact">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="orange rank_br">
+              <span class="rnk_count">1</span>
+              <span class="con_icon tel"></span>
+              <p>Call Mi Protect at
+                <br>1800 407 333 333,
+                <br>1800 123 3330 or
+                <br>0 8080 333 333
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="green rank_br">
+              <span class="rnk_count">2</span>
+              <span class="con_icon cont"></span>
+              <p>Mi Protect team will visit your <br>address to verify the damage.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="blue rank_br">
+              <span class="rnk_count">3</span>
+              <span class="con_icon build"></span>
+              <p>Claim verification <br>free-repair process initiated</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
