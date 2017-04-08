@@ -100,4 +100,23 @@ $(document).ready(function(){
       }
   );
 
+//   $('.heading_txt').click(function(){
+//     $('.icon_arrow').css({
+//      '-moz-transform':'rotate(180deg)',
+//      '-webkit-transform':'rotate(180deg)',
+//      '-o-transform':'rotate(180deg)',
+//      '-ms-transform':'rotate(180deg)',
+//      'transform':'rotate(180deg)'
+//    });
+//  },
+//  function() {
+//    $('.icon_arrow').css({
+//     '-moz-transform':'rotate(180deg)',
+//     '-webkit-transform':'rotate(180deg)',
+//     '-o-transform':'rotate(180deg)',
+//     '-ms-transform':'rotate(180deg)',
+//     'transform':'rotate(180deg)'
+//   });
+//  }
+// );
 });

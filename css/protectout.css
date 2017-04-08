@@ -982,4 +982,59 @@ body {
     .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .not_provided ol li {
       margin-bottom: 30px; }
 
+.faq_section_protect {
+  padding: 50px 0; }
+  .faq_section_protect .container .wrapper {
+    width: 80%;
+    margin: 0 auto; }
+    .faq_section_protect .container .wrapper .section_head {
+      margin: 30px 0; }
+    .faq_section_protect .container .wrapper .faq_quetion a {
+      padding: 25px 0 25px 30px;
+      display: block;
+      font-size: 18px;
+      line-height: 40px;
+      color: #757575; }
+      .faq_section_protect .container .wrapper .faq_quetion a:focus {
+        color: #616161;
+        text-decoration: none; }
+      .faq_section_protect .container .wrapper .faq_quetion a:hover {
+        text-decoration: none; }
+    .faq_section_protect .container .wrapper .faq_quetion .panel-heading {
+      padding: 0px !important; }
+    .faq_section_protect .container .wrapper .faq_quetion .panel {
+      border: none; }
+    .faq_section_protect .container .wrapper .faq_quetion .panel-collapse {
+      background-color: #f5f5f5; }
+    .faq_section_protect .container .wrapper .faq_quetion .heading_txt {
+      position: relative; }
+    .faq_section_protect .container .wrapper .faq_quetion .panel-body {
+      border: none !important;
+      padding-left: 55px;
+      line-height: 1.8; }
+      .faq_section_protect .container .wrapper .faq_quetion .panel-body li {
+        list-style-position: inside; }
+
+.icon_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  cursor: pointer; }
+  .icon_arrow:hover {
+    background-color: #e0e0e0; }
+  .icon_arrow::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 35px;
+    right: 33px;
+    border-style: solid;
+    border-width: 18px 12px 0 12px;
+    border-color: #757575 transparent transparent transparent;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+
 /*# sourceMappingURL=protectout.css.map */
