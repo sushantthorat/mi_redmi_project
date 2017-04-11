@@ -119,4 +119,8 @@ $(document).ready(function(){
 //   });
 //  }
 // );
+
+  $('.toggle_arrow_down').click(function() {
+      $("i", this).toggleClass("glyphicon-menu-up glyphicon-menu-down");
+  });
 });

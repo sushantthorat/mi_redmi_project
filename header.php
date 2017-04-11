@@ -66,10 +66,10 @@
               <li><a href="#FIXME" title="Audio" class="third_child_li hover_nav hover_toggle">Audio</a></li>
               <li><a href="#FIXME" title="Smart Devices" class="fourth_child_li hover_nav hover_toggle">Smart Devices</a></li>
               <li><a href="#FIXME" title="Mi Power Bank" class="fifth_child_li hover_nav hover_toggle">Mi Power Bank</a></li>
-              <li><a href="#FIXME" title="Accessories" class="hover_toggle">Accessories</a></li>
-              <li><a href="#FIXME" title="Mi Protect" class="hover_toggle">Mi Protect</a></li>
+              <li><a href="accessories.php" title="Accessories" class="hover_toggle">Accessories</a></li>
+              <li><a href="mi_protect.php" title="Mi Protect" class="hover_toggle">Mi Protect</a></li>
               <li><a href="#FIXME" title="Mi Community" class="hover_toggle">Mi Community</a></li>
-              <li><a href="#FIXME" title="Support" class="hover_toggle">Support</a></li>
+              <li><a href="support.php" title="Support" class="hover_toggle">Support</a></li>
            </ul>
            <a href="#" class="hamberger_menu" data-toggle = "collapse" data-target = "#collapse_nav">
              <img src="images/menu_-128.png" alt="" width="40px">
