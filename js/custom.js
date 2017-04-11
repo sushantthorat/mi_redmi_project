@@ -123,4 +123,14 @@ $(document).ready(function(){
   $('.toggle_arrow_down').click(function() {
       $("i", this).toggleClass("glyphicon-menu-up glyphicon-menu-down");
   });
+
+  $('.check_tick').click(function() {
+      if($("i", this).css('display') == 'none')
+        {
+          $("i", this).css('display','block');
+        }
+        else{
+          $("i", this).css('display','none');
+        }
+  });
 });

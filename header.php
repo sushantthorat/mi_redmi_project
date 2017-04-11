@@ -5,13 +5,14 @@
    <link rel="stylesheet" href="css/animate.css">
    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
    <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="fonts/fonts/fonts.min.css">
+
    <link href="https://www.fontify.me/wf/e519050aeabe785fc742cac02485a05b" rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <link rel="stylesheet" href="css/output.css">
+   <link rel="stylesheet" href="fonts/fonts/fonts.min.css">
    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
    <script src="js/custom.js"></script>
 

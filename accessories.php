@@ -71,7 +71,30 @@
 </div>
 
 <!-- main -->
-<div class="main">
-
+<div class="products_cat_grid">
+  <div class="container">
+    <div class="grid_heading">
+        <ul class="left_grid_nav">
+          <li><a href="#FIXME" title="RELEVANCE" class="active">RELEVANCE</a></li>
+          <li><a href="#FIXME" title="NEW" class="active">NEW</a></li>
+          <li><a href="#FIXME" title="PRICE" class="active">PRICE <i class="glyphicon glyphicon-arrow-up"></i></a></li>
+        </ul>
+        <ul class="right_grid_nav">
+          <li>
+            <span class="tips">Only view products <i class="glyphicon glyphicon-arrow-right"></i></span>
+            <a href="#FIXME" class="check_tick" title="Check">
+              <span class="checkblock"><i class="glyphicon glyphicon-ok chk"></i></span>
+              <span> ON SALE</span>
+            </a>
+          </li>
+          <li>
+            <a href="#FIXME" class="check_tick" title="Check">
+              <span class="checkblock"><i class="glyphicon glyphicon-ok chk"></i></span>
+              <span>IN STOCK</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </div>
 </div>
 <?php require_once('footer.php'); ?>

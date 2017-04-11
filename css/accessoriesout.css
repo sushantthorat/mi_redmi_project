@@ -1,5 +1,6 @@
+@import url(../fonts/fonts/fonts.min.css);
 body {
-  font-family: font124655, "Proxima Nova", Georgia, sans-serif; }
+  font-family: "Proxima Nova", Georgia, sans-serif; }
 
 .container {
   width: 94%; }
@@ -42,7 +43,7 @@ a {
     left: 17% !important;
     text-shadow: none; }
     .fade_carousel .carousel-caption h3 {
-      font: 100 64px font124655, "Proxima Nova", Georgia, sans-serif; }
+      font: 100 64px "Proxima Nova", Georgia, sans-serif; }
     .fade_carousel .carousel-caption .descp {
       width: 100%; }
     .fade_carousel .carousel-caption a {
@@ -85,7 +86,7 @@ a {
     .site-navigation ul li {
       margin-right: 11px; }
       .site-navigation ul li a {
-        font: 600 14px font124655, "Proxima Nova", Georgia, sans-serif;
+        font: 600 14px "Proxima Nova", Georgia, sans-serif;
         color: #fff;
         transition: all .2s linear;
         padding-left: 23px; }
@@ -305,7 +306,7 @@ a {
     margin: 174px auto;
     font-size: 16px; }
     #productCarousel .carousel-caption h3 {
-      font: 100 48px font124655, "Proxima Nova", Georgia, sans-serif;
+      font: 100 48px "Proxima Nova", Georgia, sans-serif;
       line-height: 1; }
     #productCarousel .carousel-caption p {
       margin: 35px auto 12px;
@@ -659,7 +660,7 @@ footer {
   .product_img_grid a {
     width: 100%; } }
 body {
-  font-family: font124655, "Proxima Nova", Georgia, sans-serif; }
+  font-family: "Proxima Nova", Georgia, sans-serif; }
 
 .container {
   width: 94%; }
@@ -702,7 +703,7 @@ a {
     left: 17% !important;
     text-shadow: none; }
     .fade_carousel .carousel-caption h3 {
-      font: 100 64px font124655, "Proxima Nova", Georgia, sans-serif; }
+      font: 100 64px "Proxima Nova", Georgia, sans-serif; }
     .fade_carousel .carousel-caption .descp {
       width: 100%; }
     .fade_carousel .carousel-caption a {
@@ -745,7 +746,7 @@ a {
     .site-navigation ul li {
       margin-right: 11px; }
       .site-navigation ul li a {
-        font: 600 14px font124655, "Proxima Nova", Georgia, sans-serif;
+        font: 600 14px "Proxima Nova", Georgia, sans-serif;
         color: #fff;
         transition: all .2s linear;
         padding-left: 23px; }
@@ -965,7 +966,7 @@ a {
     margin: 174px auto;
     font-size: 16px; }
     #productCarousel .carousel-caption h3 {
-      font: 100 48px font124655, "Proxima Nova", Georgia, sans-serif;
+      font: 100 48px "Proxima Nova", Georgia, sans-serif;
       line-height: 1; }
     #productCarousel .carousel-caption p {
       margin: 35px auto 12px;
@@ -1438,5 +1439,55 @@ footer {
     width: 8%; }
     .cata_list_section .cat_head .cat_cat_hd {
       color: #b0b0b0; }
+
+.products_cat_grid {
+  padding-top: 30px;
+  background-color: #f5f5f5; }
+  .products_cat_grid .left_grid_nav {
+    padding-left: 0px;
+    float: left; }
+    .products_cat_grid .left_grid_nav li:nth-child(2) {
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0; }
+    .products_cat_grid .left_grid_nav li:first-child {
+      padding-left: 0px; }
+  .products_cat_grid .right_grid_nav {
+    float: right; }
+    .products_cat_grid .right_grid_nav li:nth-child(2) {
+      padding: 0px 0px; }
+    .products_cat_grid .right_grid_nav .tips {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #757575;
+      margin-right: 5px; }
+      .products_cat_grid .right_grid_nav .tips i {
+        font-size: 9;
+        font-weight: 100; }
+    .products_cat_grid .right_grid_nav .checkblock {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      border: 1px solid #e0e0e0;
+      background-color: #fff;
+      font-size: 16px;
+      vertical-align: middle; }
+      .products_cat_grid .right_grid_nav .checkblock .chk {
+        display: none; }
+  .products_cat_grid ul {
+    padding-left: 0px; }
+    .products_cat_grid ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 0 30px; }
+      .products_cat_grid ul li a {
+        color: #424242;
+        font-size: 14px;
+        font-weight: 600;
+        font: 600 14px 'Proxima Nova', Georgia, sans-serif; }
+        .products_cat_grid ul li a:hover {
+          color: #ff6709;
+          text-decoration: none; }
 
 /*# sourceMappingURL=accessoriesout.css.map */

@@ -1,5 +1,6 @@
 @import "input.scss";
 @import "support.scss";
+@import "../fonts/fonts/fonts.min.css";
 .redirect_cont_page {
   font-size: 14px !important;
 }
@@ -62,4 +63,76 @@
 
   }
 
+}
+
+
+.products_cat_grid {
+  padding-top: 30px;
+  background-color: #f5f5f5;
+
+  .left_grid_nav {
+    padding-left: 0px;
+    float: left;
+    li:nth-child(2) {
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+    }
+    li:first-child {
+      padding-left: 0px;
+    }
+  }
+
+  .right_grid_nav {
+    float: right;
+
+    li:nth-child(2) {
+      padding: 0px 0px;
+    }
+
+    .tips {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #757575;
+      margin-right: 5px;
+       i{
+         font-size: 9;
+         font-weight: 100;
+       }
+    }
+
+    .checkblock {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      border: 1px solid #e0e0e0;
+      background-color: #fff;
+      font-size: 16px;
+      vertical-align: middle;
+
+      .chk {
+        display: none;
+      }
+    }
+  }
+  ul {
+    padding-left: 0px;
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 0 30px;
+
+      a {
+        color: #424242;
+        font-size: 14px;
+        font-weight: 600;
+        font: 600 14px 'Proxima Nova', Georgia, sans-serif;
+        &:hover {
+          color: $orange;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
