@@ -103,6 +103,47 @@
         </div>
       </div>
     </div>
+    <!-- sopport_services section -->
+    <div class="support_service_section">
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="#FIXME" title="ONLINE CHAT">
+            <img src="images/service-overview-online.jpg" class="img-fluid" alt="service-overview-online">
+            <div class="srv_text">
+              <span class="srv_name">ONLINE CHAT</span>
+              <span class="srv_infor">Available from 9 a.m to 9 p.m local time</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3 sr_middle">
+          <a href="#FIXME" title="PHONE HOTLINE">
+            <img src="images/service-overview-phone-in.jpg" class="img-fluid" alt="service-overview-phone-in">
+            <div class="srv_text">
+              <span class="srv_name">PHONE HOTLINE</span>
+              <span class="srv_infor">1800 103 6286 Available from 9 a.m to 9 p.m local time</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3 sr_middle">
+          <a href="#FIXME" title="EMAIL">
+            <img src="images/service-overview-email.jpg" class="img-fluid" alt="service-overview-email">
+            <div class="srv_text">
+              <span class="srv_name">EMAIL</span>
+              <span class="srv_infor">Available 24/7</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3 sr_last_col">
+          <a href="#FIXME" title="MI SERVICE CENTERS">
+            <img src="images/service-overview-xiaomi-in.jpg"class="img-fluid"  alt="service-overview-xiaomi-in">
+            <div class="srv_text">
+              <span class="srv_name">MI SERVICE CENTERS</span>
+              <span class="srv_infor">Click to see operating hours</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
