@@ -75,9 +75,9 @@
   <div class="container">
     <div class="grid_heading">
         <ul class="left_grid_nav">
-          <li><a href="#FIXME" title="RELEVANCE" class="active">RELEVANCE</a></li>
-          <li><a href="#FIXME" title="NEW" class="active">NEW</a></li>
-          <li><a href="#FIXME" title="PRICE" class="active">PRICE <i class="glyphicon glyphicon-arrow-up"></i></a></li>
+          <li class="active"><a href="#FIXME" title="RELEVANCE">RELEVANCE</a></li>
+          <li><a href="#FIXME" title="NEW">NEW</a></li>
+          <li><a href="#FIXME" title="PRICE">PRICE <i class="glyphicon glyphicon-arrow-up"></i></a></li>
         </ul>
         <ul class="right_grid_nav">
           <li>

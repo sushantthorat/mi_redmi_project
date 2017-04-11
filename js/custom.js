@@ -133,4 +133,15 @@ $(document).ready(function(){
           $("i", this).css('display','none');
         }
   });
+
+  $('.grid_heading li a').click(function(e) {
+
+        $('.grid_heading li').removeClass('active');
+
+        var $parent = $(this).parent();
+        if (!$parent.hasClass('active')) {
+            $parent.addClass('active');
+        }
+        e.preventDefault();
+    });
 });
