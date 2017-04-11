@@ -144,4 +144,25 @@ $(document).ready(function(){
         }
         e.preventDefault();
     });
+
+    $('.page_navigation ul li a').click(function(e) {
+
+          $('.page_navigation ul li').removeClass('live');
+
+          var $parent = $(this).parent();
+          if (!$parent.hasClass('live')) {
+              $parent.addClass('live');
+          }
+          e.preventDefault();
+      });
+      $('.page_navigation ul li a').click(function(e) {
+
+            $('.page_navigation ul li').removeClass('live');
+
+            var $parent = $(this).parent();
+            if (!$parent.hasClass('live')) {
+                $parent.addClass('live');
+            }
+            e.preventDefault();
+        });
 });

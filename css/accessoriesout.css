@@ -1492,4 +1492,74 @@ footer {
           color: #ff6709;
           text-decoration: none; }
 
+.grid_product_detail {
+  clear: both;
+  text-align: center; }
+  .grid_product_detail .row {
+    margin: 10px 0; }
+    .grid_product_detail .row .col-sm-3 {
+      padding: 0px 0px;
+      padding-right: 17px; }
+      .grid_product_detail .row .col-sm-3:last-child {
+        padding-right: 0px; }
+  .grid_product_detail .product_grid_item {
+    background: #fff;
+    transition: all .2s linear; }
+    .grid_product_detail .product_grid_item:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+      .grid_product_detail .product_grid_item:hover .ad_crt {
+        visibility: visible; }
+    .grid_product_detail .product_grid_item a img {
+      width: 100%; }
+    .grid_product_detail .product_grid_item li {
+      display: block;
+      margin-bottom: 12px; }
+    .grid_product_detail .product_grid_item .ad_crt {
+      visibility: hidden;
+      padding-top: 20px; }
+    .grid_product_detail .product_grid_item .orange {
+      color: #ff6709; }
+    .grid_product_detail .product_grid_item .cut_txt {
+      color: #b0b0b0;
+      text-decoration: line-through; }
+    .grid_product_detail .product_grid_item .thumbnail {
+      width: 34px;
+      height: 34px;
+      margin: 0 auto; }
+      .grid_product_detail .product_grid_item .thumbnail:hover {
+        border-color: #ff6709; }
+    .grid_product_detail .product_grid_item .sale_txt, .grid_product_detail .product_grid_item .sale_txt_new {
+      display: inline-block;
+      width: 60%;
+      background-color: #f23835;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 400; }
+    .grid_product_detail .product_grid_item .sale_txt_new {
+      background-color: #83c44e; }
+  .grid_product_detail .page_navigation {
+    margin: 20px 0; }
+    .grid_product_detail .page_navigation li {
+      padding: 0 0;
+      width: 48px;
+      height: 24px;
+      margin: 0 7px; }
+      .grid_product_detail .page_navigation li a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 24px;
+        color: #b0b0b0;
+        padding: 2px 0; }
+        .grid_product_detail .page_navigation li a:hover {
+          background-color: #b0b0b0;
+          color: #fff; }
+    .grid_product_detail .page_navigation .live {
+      background-color: #757575; }
+      .grid_product_detail .page_navigation .live a {
+        color: #fff;
+        text-decoration: none; }
+
 /*# sourceMappingURL=accessoriesout.css.map */
