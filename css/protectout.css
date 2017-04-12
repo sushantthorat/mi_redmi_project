@@ -735,306 +735,37 @@ footer {
         font-size: 16px;
         text-indent: 15px; }
 
+.support_service_section {
+  margin-bottom: 30px; }
+  .support_service_section .row .col-sm-3 {
+    width: 24%;
+    text-align: center;
+    background-color: #fff;
+    padding: 0px 0px 30px 0px;
+    margin-right: 1.3%; }
+    .support_service_section .row .col-sm-3 a {
+      display: block;
+      width: 100%; }
+      .support_service_section .row .col-sm-3 a img {
+        width: 100%; }
+      .support_service_section .row .col-sm-3 a .srv_text .srv_name {
+        display: block;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #757575; }
+      .support_service_section .row .col-sm-3 a .srv_text .srv_infor {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+        color: #b0b0b0;
+        font-style: italic; }
+      .support_service_section .row .col-sm-3 a:hover {
+        text-decoration: none; }
+  .support_service_section .row .sr_last_col {
+    margin-right: 0px; }
+
 @media screen and (max-width: 768px) {
   .main .categories .pr_div .product_cat_content {
     border: none; } }
-body {
-  color: #757575; }
-
-.wrapper {
-  width: 70%;
-  margin: 0 auto; }
-
-.mi_protect_bg_head {
-  height: 800px;
-  background: url("../images/sec-head-bg.jpg") no-repeat center top;
-  text-align: center; }
-  .mi_protect_bg_head .container .sec_head {
-    text-align: center;
-    margin-top: 125px; }
-    .mi_protect_bg_head .container .sec_head h3 {
-      font-weight: 200;
-      font-size: 72px;
-      color: #fff; }
-    .mi_protect_bg_head .container .sec_head p {
-      margin-top: 20px;
-      font-size: 14px;
-      color: #fff; }
-
-.product_cost_list .product_list_info {
-  border: 2px solid rgba(245, 245, 245, 0.5);
-  padding: 20px;
-  margin-top: 85px; }
-  .product_cost_list .product_list_info li {
-    position: relative;
-    width: 18%;
-    height: 320px;
-    margin: 0 0.7%;
-    padding: 0 20px;
-    display: inline-block;
-    vertical-align: top;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, #fff 80%);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 14px; }
-    .product_cost_list .product_list_info li .pr_info .font-number {
-      font-family: 'Avenir'; }
-    .product_cost_list .product_list_info li .pr_info .price {
-      border-bottom: 1px solid #bbb;
-      font-size: 60px;
-      font-weight: bold;
-      line-height: 120px;
-      margin-bottom: 30px; }
-    .product_cost_list .product_list_info li .pr_info .small {
-      font-size: 14px; }
-    .product_cost_list .product_list_info li .pr_info .pr_txt {
-      font-size: 16px; }
-    .product_cost_list .product_list_info li .pr_info .pr_validity {
-      position: absolute;
-      width: 100%;
-      bottom: 5%;
-      margin-left: -8%; }
-
-.product_cost_list .product_list_info > li:nth-child(1) .price {
-  color: #7aaa4b; }
-
-.product_cost_list .product_list_info > li:nth-child(2) .price {
-  color: #695fbb; }
-
-.product_cost_list .product_list_info > li:nth-child(3) .price {
-  color: #1da9a7; }
-
-.product_cost_list .product_list_info > li:nth-child(4) .price {
-  color: #6fb5e1; }
-
-.product_cost_list .product_list_info > li:nth-child(5) .price {
-  color: #f9bb01; }
-
-@media screen and (max-width: 1055px) {
-  .product_cost_list .product_list_info {
-    display: none; } }
-.safe-guard {
-  padding-bottom: 60px; }
-  .safe-guard .container .section_head h3 {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 36px;
-    line-height: 1.33333;
-    color: #212121;
-    font-weight: 600; }
-  .safe-guard .container .section_head p {
-    width: 90%;
-    margin: 20px auto;
-    font-size: 14px;
-    color: #757575; }
-  .safe-guard .container .section_head a {
-    color: #ff6709; }
-  .safe-guard .damage_list {
-    margin: 30px 0;
-    text-align: center; }
-    .safe-guard .damage_list .row {
-      margin-bottom: 60px; }
-      .safe-guard .damage_list .row .col-sm-3 .damage_icon {
-        display: inline-block;
-        width: 132px;
-        height: 132px;
-        background: url("../images/sprite.png") no-repeat; }
-      .safe-guard .damage_list .row .col-sm-3 .f1 {
-        background-position: -2px -6px; }
-      .safe-guard .damage_list .row .col-sm-3 .f2 {
-        background-position: -143px 0;
-        width: 132px;
-        height: 139px; }
-      .safe-guard .damage_list .row .col-sm-3 .f3 {
-        background-position: -284px -7px; }
-      .safe-guard .damage_list .row .col-sm-3 .f4 {
-        background-position: -424px -7px; }
-      .safe-guard .damage_list .row .col-sm-3 .f21 {
-        background-position: -563px -7px; }
-      .safe-guard .damage_list .row .col-sm-3 .f22 {
-        background-position: -703px -7px; }
-      .safe-guard .damage_list .row .col-sm-3 .f23 {
-        background-position: -844px -7px; }
-      .safe-guard .damage_list .row .col-sm-3 .f24 {
-        background-position: -981px -5px; }
-      .safe-guard .damage_list .row .col-sm-3 p {
-        margin-top: 20px; }
-
-.section_head h3 {
-  width: 87%;
-  margin: 0 auto;
-  font-size: 36px;
-  line-height: 1.33333;
-  color: #212121;
-  font-weight: 600; }
-.section_head p {
-  width: 90%;
-  margin: 20px auto;
-  font-size: 14px;
-  color: #757575; }
-
-.warranty_section {
-  padding: 110px 0 50px 0; }
-  .warranty_section .container .damage_contact {
-    margin: 85px 0; }
-    .warranty_section .container .damage_contact .row .col-sm-4 {
-      text-align: center; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .con_icon {
-        display: inline-block;
-        background: url("../images/steps-list-bg.png") no-repeat; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .tel {
-        background-position: -5px -9px;
-        width: 60px;
-        height: 51px; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .cont {
-        background-position: -74px -11px;
-        width: 64px;
-        height: 46px; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .build {
-        background-position: -148px -4px;
-        width: 56px;
-        height: 60px; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .rank_br {
-        width: 92%;
-        border: 1px solid;
-        position: relative;
-        overflow: hidden;
-        height: 270px;
-        padding: 50px 0 36px 0; }
-        .warranty_section .container .damage_contact .row .col-sm-4 .rank_br p {
-          margin-top: 50px; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .orange {
-        border-color: #f57517; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .orange::before {
-        background-color: #f57517; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .rank_br::before {
-        content: "";
-        width: 67px;
-        height: 67px;
-        position: absolute;
-        top: -33px;
-        left: -33px;
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg); }
-      .warranty_section .container .damage_contact .row .col-sm-4 .rnk_count {
-        position: absolute;
-        left: 3px;
-        top: 5px;
-        font-size: 24px;
-        line-height: 1;
-        font-weight: 600;
-        font-style: italic;
-        color: #fff;
-        font-family: 'Avenir'; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .green {
-        border-color: #7cb342; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .green::before {
-        background-color: #7cb342; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .blue {
-        border-color: #00acc1; }
-      .warranty_section .container .damage_contact .row .col-sm-4 .blue::before {
-        background-color: #00acc1; }
-
-.claim_section {
-  padding-bottom: 50px; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .card_head::before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 90px;
-    left: 0;
-    border-style: solid;
-    border-width: 20px 210px 0 210px;
-    border-color: #fff transparent transparent transparent; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .card_head {
-    height: 90px;
-    text-align: center;
-    position: relative;
-    line-height: 90px;
-    color: #fff;
-    font-size: 23px; }
-    .claim_section .container .warranty_detail .row .col-sm-6 .card_head h4, .claim_section .container .warranty_detail .row .col-sm-6 .card_head .service_section .rt_text span, .service_section .rt_text .claim_section .container .warranty_detail .row .col-sm-6 .card_head span {
-      padding-top: 30px;
-      font-size: 23px; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .gray_hd {
-    background-color: #757575; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .gray_hd::before {
-    border-top-color: #757575; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .green_hd {
-    background-color: #7aaa4b; }
-  .claim_section .container .warranty_detail .row .col-sm-6 .card_provided {
-    width: 100%;
-    height: 550px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 13px 24px; }
-    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .green_hd::before {
-      border-top-color: #7aaa4b; }
-    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail {
-      padding: 50px 50px 0;
-      line-height: 1.8; }
-      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail ol li {
-        list-style-position: inside; }
-      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail dt {
-        font-weight: 900; }
-      .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .card_detail dd {
-        margin: 5px 0 40px 0;
-        line-height: 1.8; }
-    .claim_section .container .warranty_detail .row .col-sm-6 .card_provided .not_provided ol li {
-      margin-bottom: 30px; }
-
-.faq_section_protect {
-  padding: 50px 0; }
-  .faq_section_protect .container .wrapper {
-    width: 80%;
-    margin: 0 auto; }
-    .faq_section_protect .container .wrapper .section_head {
-      margin: 30px 0; }
-    .faq_section_protect .container .wrapper .faq_quetion a {
-      padding: 25px 0 25px 30px;
-      display: block;
-      font-size: 18px;
-      line-height: 40px;
-      color: #757575; }
-      .faq_section_protect .container .wrapper .faq_quetion a:focus {
-        color: #616161;
-        text-decoration: none; }
-      .faq_section_protect .container .wrapper .faq_quetion a:hover {
-        text-decoration: none; }
-    .faq_section_protect .container .wrapper .faq_quetion .panel-heading {
-      padding: 0px !important; }
-    .faq_section_protect .container .wrapper .faq_quetion .panel {
-      border: none; }
-    .faq_section_protect .container .wrapper .faq_quetion .panel-collapse {
-      background-color: #f5f5f5; }
-    .faq_section_protect .container .wrapper .faq_quetion .heading_txt {
-      position: relative; }
-    .faq_section_protect .container .wrapper .faq_quetion .panel-body {
-      border: none !important;
-      padding-left: 55px;
-      line-height: 1.8; }
-      .faq_section_protect .container .wrapper .faq_quetion .panel-body li {
-        list-style-position: inside; }
-
-.icon_arrow {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 90px;
-  height: 90px;
-  cursor: pointer; }
-  .icon_arrow:hover {
-    background-color: #e0e0e0; }
-  .icon_arrow::before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 35px;
-    right: 33px;
-    border-style: solid;
-    border-width: 18px 12px 0 12px;
-    border-color: #757575 transparent transparent transparent;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in; }
 
 /*# sourceMappingURL=protectout.css.map */
