@@ -104,6 +104,47 @@
     }
   }
 
+
+  .support_service_section {
+    .row {
+      margin: 30px 0;
+      .col-sm-3 {
+        text-align: center;
+        a {
+          // height: 100px;
+          padding-bottom: 60px;
+          &:hover{
+            text-decoration: none;
+          }
+
+          .srv_text {
+              background-color: #fff;
+              padding: 16px 0px;
+              height: 130px;
+            .srv_name {
+              display: block;
+              font-size: 20px;
+              color: #757575;
+              margin: 22px 0 6px 0px;
+            }
+            .srv_infor {
+              font-size: 12px;
+              line-height: 18px;
+              margin-top: 10px;
+              color: #b0b0b0;
+              font-style: italic;
+            }
+          }
+        }
+      }
+      .sr_middle {
+        a {
+          padding-bottom: 40px;
+        }
+      }
+    }
+  }
+
 @media screen and (max-width:768px) {
   .main .categories .pr_div .product_cat_content {
     border: none;

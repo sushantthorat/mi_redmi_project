@@ -120,11 +120,11 @@
             <img src="images/service-overview-phone-in.jpg" class="img-fluid" alt="service-overview-phone-in">
             <div class="srv_text">
               <span class="srv_name">PHONE HOTLINE</span>
-              <span class="srv_infor">1800 103 6286 Available from 9 a.m to 9 p.m local time</span>
+              <span class="srv_infor">1800 103 6286 <br>Available from 9 a.m to 9 p.m local time</span>
             </div>
           </a>
         </div>
-        <div class="col-sm-3 sr_middle">
+        <div class="col-sm-3 sr_middle m2">
           <a href="#FIXME" title="EMAIL">
             <img src="images/service-overview-email.jpg" class="img-fluid" alt="service-overview-email">
             <div class="srv_text">

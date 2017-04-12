@@ -54,7 +54,7 @@
      <div class="curtain index" id="J_curtain">
         <div class="container hover_nav_l">
            <h1 class="logo">
-              <a href="#FIXME" title="Mi Home"><img src="images/mihome.png" alt="Mi Home"></a>
+              <a href="index.html" title="Mi Home"><img src="images/mihome.png" alt="Mi Home"></a>
            </h1>
            <div class="offer_gif">
             <a href="#FIXME" title="Offer 2017">

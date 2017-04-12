@@ -105,7 +105,7 @@ a {
     }
 
     .logo {
-      width: 5%;
+      width: 56px;
       overflow: hidden;
       display: inline-block;
       a {
@@ -531,6 +531,7 @@ a {
   }
 
   .social_icon {
+    margin-top: 34px;
     a {
       margin-left: 17%;
       color: #b0b0b0;
@@ -541,6 +542,9 @@ a {
       }
     }
   }
+}
+.ffff {
+  width: 30%;
 }
 
 footer {

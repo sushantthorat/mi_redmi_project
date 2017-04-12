@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="contact_right row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 ffff">
         <h4>FOLLOW MI!</h4>
         <span>We want to hear from you</span>
       </div>

@@ -42,7 +42,7 @@ a {
     left: 17% !important;
     text-shadow: none; }
     .fade_carousel .carousel-caption h3 {
-      font: 100 64px font124655, "Proxima Nova", Georgia, sans-serif; }
+      font: 100 64px "Proxima Nova", Georgia, sans-serif; }
     .fade_carousel .carousel-caption .descp {
       width: 100%; }
     .fade_carousel .carousel-caption a {
@@ -70,7 +70,7 @@ a {
     vertical-align: top;
     margin-top: 10px; }
   .site-navigation .logo {
-    width: 5%;
+    width: 56px;
     overflow: hidden;
     display: inline-block; }
     .site-navigation .logo a {
@@ -85,7 +85,7 @@ a {
     .site-navigation ul li {
       margin-right: 11px; }
       .site-navigation ul li a {
-        font: 600 14px font124655, "Proxima Nova", Georgia, sans-serif;
+        font: 600 14px "Proxima Nova", Georgia, sans-serif;
         color: #fff;
         transition: all .2s linear;
         padding-left: 23px; }
@@ -305,7 +305,7 @@ a {
     margin: 174px auto;
     font-size: 16px; }
     #productCarousel .carousel-caption h3 {
-      font: 100 48px font124655, "Proxima Nova", Georgia, sans-serif;
+      font: 100 48px "Proxima Nova", Georgia, sans-serif;
       line-height: 1; }
     #productCarousel .carousel-caption p {
       margin: 35px auto 12px;
@@ -386,12 +386,17 @@ a {
     background-color: transparent;
     color: #b0b0b0;
     font-size: 9px; }
-  .contact_section .social_icon a {
-    margin-left: 17%;
-    color: #b0b0b0;
-    font-size: 18px; }
-    .contact_section .social_icon a:hover {
-      color: #616161; }
+  .contact_section .social_icon {
+    margin-top: 34px; }
+    .contact_section .social_icon a {
+      margin-left: 17%;
+      color: #b0b0b0;
+      font-size: 18px; }
+      .contact_section .social_icon a:hover {
+        color: #616161; }
+
+.ffff {
+  width: 30%; }
 
 footer {
   background-color: #212121;
