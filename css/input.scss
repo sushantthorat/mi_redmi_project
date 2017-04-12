@@ -555,6 +555,10 @@ footer {
   .footer_links {
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(176, 176, 176, 0.24);
+
+    .col-sm-3 {
+      width: 21.4%;
+    }
   }
 
   h4 {
@@ -590,7 +594,8 @@ footer {
       .chat_box {
         padding: 5px 10px;
         border: 1px solid #fff;
-        margin-top: 10px;
+        width: 85%;
+        margin: 10px auto 0px auto;
         &:hover {
           background-color: #fff!important;
           color: #212121;

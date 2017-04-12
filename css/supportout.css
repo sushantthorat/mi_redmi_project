@@ -405,6 +405,8 @@ footer {
   footer .footer_links {
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(176, 176, 176, 0.24); }
+    footer .footer_links .col-sm-3 {
+      width: 21.4%; }
   footer h4, footer .service_section .rt_text span, .service_section .rt_text footer span {
     font-size: 14px;
     line-height: 40px;
@@ -428,7 +430,8 @@ footer {
     footer .help_contact .chat_box {
       padding: 5px 10px;
       border: 1px solid #fff;
-      margin-top: 10px; }
+      width: 85%;
+      margin: 10px auto 0px auto; }
       footer .help_contact .chat_box:hover {
         background-color: #fff !important;
         color: #212121;
@@ -748,6 +751,8 @@ footer {
       padding-bottom: 60px; }
       .support_service_section .row .col-sm-3 a:hover {
         text-decoration: none; }
+      .support_service_section .row .col-sm-3 a img {
+        width: 100%; }
       .support_service_section .row .col-sm-3 a .srv_text {
         background-color: #fff;
         padding: 16px 0px;
