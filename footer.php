@@ -45,10 +45,11 @@
         <h4>LETS STAY IN TOUCH</h4>
         <span>Get updates on sales specials and more</span>
       </div>
-      <div class="col-sm-6 input_email">
-        <form class="" action="index.html" method="post">
-          <input type="email" name="" value="" placeholder="Enter Emial Address">
+      <div class="col-sm-6 input_email" ng-app="">
+        <form class="" action="index.html" method="post" name="myForm">
+          <input type="email" ng-model="email" name="email" required placeholder="Enter Emial Address">
           <button type="submit" title="Submit"><i class="glyphicon glyphicon-menu-right"></i></button>
+          <p ng-show="myForm.email.$error.email" style="position:absolute;">Not a valid e-mail address</p>
         </form>
       </div>
     </div>

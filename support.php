@@ -30,7 +30,7 @@
         <div class="product_cat_content">
           <a href="#FIXME" title="Phone mi">
             <img src="images/service-overview-phone1.jpg" alt="mi" class="img-fluid">
-            <a href="#FIXME" title="Product" title="MI PHONE / REDMI">MI PHONE / REDMI</a>
+            <a href="#FIXME" title="MI PHONE / REDMI">MI PHONE / REDMI</a>
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@
         <div class="product_cat_content">
           <a href="#FIXME" title="Phone mi">
             <img src="images/service-overview-mipad.jpg" alt="mi" class="img-fluid">
-            <a href="#FIXME" title="Product" title="MI PAD">MI PAD</a>
+            <a href="#FIXME" title="MI PAD">MI PAD</a>
           </a>
         </div>
       </div>
@@ -46,7 +46,7 @@
         <div class="product_cat_content">
           <a href="#FIXME" title="Phone mi">
             <img src="images/service-overview-shouhuan.jpg" alt="mi" class="img-fluid">
-            <a href="#FIXME" title="Product" title="SMART DEVICES">SMART DEVICES</a>
+            <a href="#FIXME" title="SMART DEVICES">SMART DEVICES</a>
           </a>
         </div>
       </div>
@@ -54,7 +54,7 @@
         <div class="product_cat_content last-child_pr_div">
           <a href="#FIXME" title="Phone mi">
             <img src="images/service-overview-dianyuan.jpg" alt="mi" class="img-fluid">
-            <a href="#FIXME" title="Product" title="ACCESSORIES">ACCESSORIES</a>
+            <a href="#FIXME" title="ACCESSORIES">ACCESSORIES</a>
           </a>
         </div>
       </div>
@@ -92,7 +92,7 @@
       </div>
       <div class="row faq_grid">
         <div class="col-sm-6">
-          <a href="#FIXME" title="Take back & Recycling">
+          <a href="#FIXME" title="Take back &amp; Recycling">
             Take back &amp; Recycling
           </a>
         </div>

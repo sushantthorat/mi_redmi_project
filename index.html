@@ -13,6 +13,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
       <link rel="stylesheet" href="css/output.css">
       <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
       <script src="js/custom.js"></script>
@@ -458,10 +459,11 @@
               <h4>LETS STAY IN TOUCH</h4>
               <span>Get updates on sales specials and more</span>
             </div>
-            <div class="col-sm-6 input_email">
-              <form class="" action="index.html" method="post">
-                <input type="email" name="" value="" placeholder="Enter Emial Address">
+            <div class="col-sm-6 input_email" ng-app="">
+              <form class="" action="index.html" method="post" name="myForm">
+                <input type="email" ng-model="email" name="email" required placeholder="Enter Emial Address">
                 <button type="submit" title="Submit"><i class="glyphicon glyphicon-menu-right"></i></button>
+                <p ng-show="myForm.email.$error.email" style="position:absolute;">Not a valid e-mail address</p>
               </form>
             </div>
           </div>
